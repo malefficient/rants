@@ -1,0 +1,25 @@
+
+
+Readability is reliable.
+If you
+
+
+
+if theres really a lot of features, you might write a line of code, write it that way, write it taht way, and..
+
+But worse, when you come back to that program later, you have to re-create that thought process! You not only have to understand that complicated programming language doing whatever it is doign. You have to understand why the programmer (who might be you!) decided that this was the way to approach the problem, (from the feature set available).
+
+<meta>
+This is *literally* why I wrote an entire essay as an ongoing comment inside ENVY that described the entire process of iterating from pcap API interfaces in python from 1) to 2) to 3). 
+Rob Pike 
+dotGo 2015 - Rob Pike - Simplicity is Complicated
+
+
+
+If a language is complicated on the other hand, you have to understand more to understand even where to start workign on the progrma. And you ahve to understand a more copmlicated model in which the program is being written. These cost time, and make a language harder to use. Even if that programmer is you
+
+
+Go's fundamental trade-off: easier-to-read ? 
+
+O
+
