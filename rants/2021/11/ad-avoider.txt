@@ -1,0 +1,13 @@
+What if there was a fucking ad-avoider(!), that much like training AI/ML to win at super mario, ‘looked’ at rendered content, mucked around deleting elements (comparing the ratio of words/noise | information / data), ran that thing in the background and pooped out the most resplendent variation it could produce in say..15 seconds of computer time?
+
+How much time/attention do I or anyone have left in the world, and why do I need to spend the cognitive resources _thinking_ about how to ration it? (I.e., mute the video, scroll down / do something else for 15 seconds, come back.)
+
+Or alternately, why the the fucking ‘content creators’ need to game the system to slow-trickle information out in twitter threads (each post spaced <X> mins apart), solely so they can re-compete for eyeballs.
+
+
+
+Slightly relatedly: Should i just get GSM enabled yogabook and a ./one-liner.sh to save things?
+Would be nice if it tried to tie stuff together contextualy/
+WTH is .rst, and can i delete markdown from my brain if i learn it
+
+

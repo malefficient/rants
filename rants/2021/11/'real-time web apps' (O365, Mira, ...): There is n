@@ -1,0 +1,33 @@
+'real-time web apps' (O365, Mira, ...): There is no save, and there is no file. Your data lives behind a GUI that (hopefully) sits atop an API.  Every 'change' is 'published' immediately. 
+
+The subtle 'upside' of this approach is that there is a third party 
+*enforcing* the structure and access methods people can use to view and modify your data. There is (and in fact, cannot be), the concern that some third party tool (like, a hex editor applied to an old-school .doc or .pdf) will be able to change either the content (duh) _or_ the representation (not duh.)
+
+Don't want to support archiach extensions like ActiveX and OLE for the rest of your natural life? great! 
+
+Want to be able to save your information in a 'file of record' (or some other authoritative representation). Womp womp.
+
+Draw.io neatly circumscribes this issue by publishing the representation (XML). Archive? Check. Third-party tools: Check.
+
+## Or: Everything wrong with the fucking 'share' button. 
+
+## What is the minimal acceptable value for rtt delay for an 'interactive web-app'? I.e. How many seconds between a miro action and my screen (let alone others) reproducing it ? 
+
+This if driving me fuckign nuts.
+Vim over mosh over udp over >> vim over ssh
+What is edge -> Proxy -> (x.cb,vc/,bdlkhn) <-- and back to to me
+
+
+
+
+git: The complete fucking opposite. Of course you can save. But your files aren't -safe-
+
+
+files: open/close, read()/write()
+
+All three of these 'paradigms' bend your brain in three completely diferent directions.
+Confluence is the worst because it can't even commit to being 'fileless'
+
+
+
+i.e. On miro app:

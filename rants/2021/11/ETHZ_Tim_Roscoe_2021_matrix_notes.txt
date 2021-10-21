@@ -1,0 +1,58 @@
+I stumbled across a very under-rated talk at USENIX/OSDI 2021 during a late-night YT rabbit hole.
+
+I’m a little all over the place describing it. And if you have the luxury of an hour to watch (OK, skim), here are some of the highlights
+
+# USENIX ATC '21/OSDI '21 Joint Keynote Address-It's Time for Operating Systems to Rediscover Hardware
+
+* https://youtu.be/36myc8wQhLo
+
+For simplicity, here some of  my fav timestamped offsets are below
+
+Trying to describe in an email how eerie it was seeing a previously published video so accurately predict the challenges that have faced out small group so precisely (and, as mentioned, a-priori) isn’t kind of surreal. 
+
+Max’s Raptor/Shasta/XYZ devices with 14*(or close enough) independently operating cores: Check
+
+Me: All of the Rowhammer work (in particular the *very recent* (like last 72 hours) or development I have been pursuing: check
+
+Some of the highlights: 
+
+* ‘What Linux actually operates in a modern SoC’
+ https://www.youtube.com/watch?v=36myc8wQhLo&t=1129s 
+
+* ‘Security catastrophpe’ - cross SoC attack
+ https://www.youtube.com/watch?v=36myc8wQhLo&t=1167s 
+
+*Quallcom QualPWN 
+https://www.youtube.com/watch?v=36myc8wQhLo&t=1207s 
+
+* Power mgmt 
+https://www.youtube.com/watch?v=36myc8wQhLo&t=1384
+
+‘(Mis)-Mapping address spaces’ / anecdotal data point
+https://www.youtube.com/watch?v=36myc8wQhLo&t=1718 
+
+
+Favorite out-takes:
+*—————
+‘The assumpption of a shared physical address space is kind of at the hear of what this means.
+ The driver and the firmware on the modem have to do complicated re-mapping as you go between things
+
+This program was fixed
+
+And so perhaps you need to come up with a better model for this. We _Did_ produce a version of barrelfish that fixed this problem.
+
+We fixed this probem with a *formally specified model of multiple different address spaces 
+that captured the state of the machine and could be dynamically updated in the base (as mapping change, lookup-tables get programmed, all kinds of things like that)
+
+It carried the authorization model *all-the-way through* those complicated translations, and it would 
+have solved this problem.
+
+——
+I realize the recent work I have been on RPX->DarkFuzzer etc etc has been.. complicatd to follow. But I just wanted to point out that the end goal of DarkFuzzer2, as well as the precise techniques I have been researching to implement were almost perfectly described in this almost off-the-cuff talk.
+
+The real kicker?
+This guy is at ETH Zurich (Timothy Roscoe)
+
+
+
+
